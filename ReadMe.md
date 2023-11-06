@@ -2,13 +2,15 @@
 
 [Open-source licenses][1] filter algorithm library written in [TypeScript][2]
 
-[![CI & CD](https://github.com/kaiyuanshe/Open-Source-License-filter/actions/workflows/main.yml/badge.svg)][3]
+[![NPM Dependency](https://img.shields.io/librariesio/github/kaiyuanshe/Open-Source-License-filter.svg)][3]
+[![CI & CD](https://github.com/kaiyuanshe/Open-Source-License-filter/actions/workflows/main.yml/badge.svg)][4]
 
-[![NPM](https://nodei.co/npm/license-filter.png?downloads=true&downloadRank=true&stars=true)][4]
+[![NPM](https://nodei.co/npm/license-filter.png?downloads=true&downloadRank=true&stars=true)][5]
 
-## Document
+## Link
 
-https://kaiyuanshe.feishu.cn/wiki/wikcnRn5pkE3BSvqFUMkJPymaG3
+-   Design document: https://kaiyuanshe.feishu.cn/wiki/wikcnRn5pkE3BSvqFUMkJPymaG3
+-   UI implement: https://kaiyuanshe.cn/tool/license-filter
 
 ## Usage
 
@@ -121,5 +123,6 @@ https://mp.weixin.qq.com/s/ja_w-2NNSIKcO4vv7iN5vg
 
 [1]: https://opensource.org/licenses
 [2]: https://www.typescriptlang.org/
-[3]: https://github.com/kaiyuanshe/Open-Source-License-filter/actions/workflows/main.yml
-[4]: https://nodei.co/npm/license-filter/
+[3]: https://libraries.io/npm/license-filter
+[4]: https://github.com/kaiyuanshe/Open-Source-License-filter/actions/workflows/main.yml
+[5]: https://nodei.co/npm/license-filter/
