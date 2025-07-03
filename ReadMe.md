@@ -2,15 +2,15 @@
 
 [Open-source licenses][1] filter algorithm library written in [TypeScript][2]
 
-[![NPM Dependency](https://img.shields.io/librariesio/github/kaiyuanshe/Open-Source-License-filter.svg)][3]
-[![CI & CD](https://github.com/kaiyuanshe/Open-Source-License-filter/actions/workflows/main.yml/badge.svg)][4]
+[![NPM Dependency](https://img.shields.io/librariesio/github/Open-Source-Bazaar/Open-Source-License-filter.svg)][3]
+[![CI & CD](https://github.com/Open-Source-Bazaar/Open-Source-License-filter/actions/workflows/main.yml/badge.svg)][4]
 
 [![NPM](https://nodei.co/npm/license-filter.png?downloads=true&downloadRank=true&stars=true)][5]
 
 ## Link
 
--   Design document: https://kaiyuanshe.feishu.cn/wiki/wikcnRn5pkE3BSvqFUMkJPymaG3
--   UI implement: https://kaiyuanshe.cn/tool/license-filter
+- Design document: https://kaiyuanshe.feishu.cn/wiki/wikcnRn5pkE3BSvqFUMkJPymaG3
+- UI implement: https://oss-toolbox.kaiyuanshe.cn/license-filter
 
 ## Usage
 
@@ -63,13 +63,11 @@ console.log(list); // filtered licenses
 ### Filter Algorithm
 
 1. Mark the weight of various Open-source licenses according to the above Evaluation dimensions:
-
     1. Positive `+1`: clearly supports the feature of this dimension
     2. Undefined `0`: no explicit mention of the dimension's feature
     3. Negative `-1`: clearly oppose the characteristics of this dimension
 
 2. Input the user's Attitude towards the above dimensional features:
-
     1. Positive `+1`: definitely need the feature of this dimension
     2. Undefined `0`: insensitive to the feature of this dimension
     3. Negative `-1`: explicitly reject the feature of this dimension
@@ -94,8 +92,8 @@ https://kaiyuanshe.cn/license-tool/
 
 #### Code
 
--   Page: https://github.com/kaiyuanshe/kaiyuanshe.github.io/blob/hexo/themes/Electron/layout/license-tool.ejs
--   Logic: https://github.com/kaiyuanshe/kaiyuanshe.github.io/tree/hexo/themes%2FElectron%2Fsource%2FOSLS
+- Page: https://github.com/kaiyuanshe/kaiyuanshe.github.io/blob/hexo/themes/Electron/layout/license-tool.ejs
+- Logic: https://github.com/kaiyuanshe/kaiyuanshe.github.io/tree/hexo/themes%2FElectron%2Fsource%2FOSLS
 
 ### New Chinese Edition
 
@@ -124,5 +122,5 @@ https://mp.weixin.qq.com/s/ja_w-2NNSIKcO4vv7iN5vg
 [1]: https://opensource.org/licenses
 [2]: https://www.typescriptlang.org/
 [3]: https://libraries.io/npm/license-filter
-[4]: https://github.com/kaiyuanshe/Open-Source-License-filter/actions/workflows/main.yml
+[4]: https://github.com/Open-Source-Bazaar/Open-Source-License-filter/actions/workflows/main.yml
 [5]: https://nodei.co/npm/license-filter/
